@@ -7,7 +7,7 @@ func main() {
 	fmt.Print("Ingrese valor...  ")
 	fmt.Scanln(&valor)
 	fmt.Printf("¿%v es primo? %v", valor, CalcularNroPrimo(valor))
-	//CalcularNroPrimo(valor)
+	
 
 }
 func CalcularNroPrimo(n int) (resultado bool) {
