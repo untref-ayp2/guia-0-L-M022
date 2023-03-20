@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func Coeficinetes(n ...float32) {
+func MostrarCoeficientes(n ...float32) {
 	x := 0
 	total := ""
 	for _, valor := range n {
@@ -40,11 +40,11 @@ func Coeficinetes(n ...float32) {
 }
 func main() {
 	//Con coeficiente negativo
-	Coeficinetes(-2.0, 3.0, 5.0)
+	MostrarCoeficientes(-2.0, 3.0, 5.0)
 	//Con coeficiente Cero
-	Coeficinetes(0.0, 3.0, 0.0, 4.2, 2.3, 4.5)
+	MostrarCoeficientes(0.0, 3.0, 0.0, 4.2, 2.3, 4.5)
 	//Con coeficiente positivos
-	Coeficinetes(14.0, 13.0, 8.0)
+	MostrarCoeficientes(14.0, 13.0, 8.0)
 	//Con muchos coeficientes
-	Coeficinetes(15.0, 7.0, 5.0, 0.0, 7.3, -4.0, -2.0, 42.0)
+	MostrarCoeficientes(15.0, 7.0, 5.0, 0.0, 7.3, -4.0, -2.0, 42.0)
 }
